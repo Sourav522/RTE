@@ -23,6 +23,7 @@
   border: 0.0px solid black;
   background-color: white;
   overflow: hidden;
+  
 }
 #nodeParentDiv{
   position: absolute;
@@ -48,6 +49,7 @@
   height: 20vh;
   transform: scale(1.5);
   padding: 1vh;
+  font-size: 2vh;
   
 }
 
@@ -64,6 +66,7 @@
   opacity: 0;
   color: white;
   padding: 1vh;
+  font-size: 2.2vh;
   
 }
 
@@ -80,6 +83,7 @@
   opacity: 0;
   color: white;
   padding: 0.4vh;
+  font-size: 2vh;
   
 }
 svg{
