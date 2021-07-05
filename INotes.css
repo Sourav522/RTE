@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Gotham SSm;
+  src: url('Gotham-SSm/GothamSSm-Light.otf');
+}
+#bodyId{background-color: rgba(188, 191, 196, 0.534);font-family: Gotham SSm;}
+.parent-div{
+  width:100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.child-div{
+  width:177.77vh;
+  height: 100vh;
+  position: absolute;
+  margin-left:0px;
+  border: 0.0px solid black;
+  background-color: white;
+  overflow: hidden;
+}
+#nodeParentDiv{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 0px solid black;
+  overflow: visible;
+  transition: transform 0.8s;
+}
+
+.node1{
+	position: absolute;
+	border-radius: 30vh;
+	background-color: aquamarine;
+	transition: transform 0.8s;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  width: 20vh;
+  height: 20vh;
+  transform: scale(1.5);
+  padding: 1vh;
+  
+}
+
+.node2{
+	position: absolute;
+	border-radius: 8vh;
+	background-color: rgb(8, 99, 141);
+	transition: transform 0.8s, opacity 0.8s;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  opacity: 0;
+  color: white;
+  padding: 1vh;
+  
+}
+
+.node3{
+	position: absolute;
+	border-radius: 0.5vh;
+	background-color: rgb(20, 103, 211);
+	transition: transform 0.8s;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  opacity: 0;
+  color: white;
+  padding: 0.4vh;
+  
+}
+svg{
+  overflow:visible;
+  position: absolute;
+}
